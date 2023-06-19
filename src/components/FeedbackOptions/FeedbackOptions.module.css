@@ -1,0 +1,23 @@
+.button {
+  width: 70px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.button:last-child {
+  margin: 0;
+}
+.good {
+  background-color: green;
+}
+.neutral {
+  background-color: yellow;
+}
+.bad {
+  background-color: lightcoral;
+}
+.button:hover {
+    transform: scale(1.1);
+}
